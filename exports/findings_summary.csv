@@ -1,0 +1,14 @@
+metric,value,source
+Total orders analyzed,"96,478",Phase 2 cleaning
+Total unique customers,"93,358",Phase 2 cleaning
+Total revenue,"$15,422,461.77",04_visualization_prep
+One-time buyer rate,97.0%,RFM segmentation
+"""Loyal/Repeat"" segment size",0.24% (228 customers),RFM segmentation
+Loyal segment avg spend vs. overall,$506.79 vs ~$160 (3.2x),04_visualization_prep
+Month-1 cohort retention (corrected),0.48%,Cohort retention (weighted)
+Unweighted retention error caught,5.45% → 0.48% (11x overstatement),Cohort retention — bug fix
+Late delivery rate,8.11%,Phase 2 cleaning
+Review score: on-time vs. late delivery,4.29 vs 2.57 (Cohen's d = 1.45),A/B test
+Monthly late% vs review score correlation,r = -0.971,04_visualization_prep
+Weakest state (volume-adjusted),"RJ — 13.47% late, 3.97 avg review (2nd largest state)",04_visualization_prep
+Data integrity issues found & fixed,8 (see log below),All phases
